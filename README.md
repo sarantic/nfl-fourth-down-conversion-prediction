@@ -35,11 +35,6 @@ nfl-fourth-down-conversion-prediction/
 ├── LICENSE                      
 ├── .gitignore
 ├── requirements.txt
-│
-├── data/
-│   ├── README.md                
-│   └── (do NOT upload large raw datasets)
-│
 ├── notebooks/
 │   └── fourth_down_analysis.ipynb
 │
@@ -51,10 +46,8 @@ nfl-fourth-down-conversion-prediction/
 │   └── calibrated_logreg.joblib
 │
 └── images/
-    ├── confusion_matrix.png
-    ├── calibration_curve.png
-    ├── feature_distributions.png
-    └── model_pipeline.png
+    ├── probability_by_yards.png
+    └── calibration_plot.png
 
 ```
 
